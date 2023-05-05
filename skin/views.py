@@ -12,13 +12,13 @@ from django.template.loader import get_template
 from xhtml2pdf import pisa
 
 SKIN_CLASSES = {
-    0: "Actinic Keratoses",
-    1: "Basal Cell Carcinoma",
-    2: "Benign Keratosis",
-    3: "Dermatofibroma",
-    4: "Melanoma",
-    5: "Melanocytic Nevi",
-    6: "Vascular skin lesion",
+        0: "Actinic Keratoses",
+        1: "Basal Cell Carcinoma",
+        2: "Benign Keratosis",
+        3: "Dermatofibroma",
+        4: "Melanoma",
+        5: "Melanocytic Nevi",
+        6: "Vascular skin lesion",
 }
 
 def get_image_prediction(image_path):
